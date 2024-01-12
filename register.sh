@@ -2,7 +2,7 @@
 apt update && apt upgrade
 apt install python3 python3-pip git
 cd /etc/bot
-wget https://konohagakure.klmpk.me:81/regis.zip
+wget -q https://github.com/zhets/register_bot/raw/main/regis.zip
 unzip regis.zip
 rm -rf regis.zip
 pip3 install -r regis/requirements.txt
